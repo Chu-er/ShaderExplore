@@ -47,7 +47,18 @@ Shader"ManNiu/Wave"{
 		v2f vert(appdata_base v){
 
 		 v2f o;
-			o.pos =UnityObjectToClipPos(v.vertex);  //UnityObjectToClipPos(v.vertex); 模型到世界 相机 投影
+			
+			float s;
+			float c;
+			sincos(radians(-90),s,c);
+			float3x3 rotation=
+			{
+				c,s,0,
+				-s,c,1,
+				0,0,0
+			};
+			float3 vertex =  mul(rotation,v.vertex.xyz);
+			o.pos =UnityObjectToClipPos(vertex);  //UnityObjectToClipPos(v.vertex); 模型到世界 相机 投影
 			o.uv=  TRANSFORM_TEX(v.texcoord,_MainTex);
 
 			return o  ;
