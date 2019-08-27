@@ -106,6 +106,7 @@
     <None Include="Assets\初级Shader\AlphaBlend\ReplaceShaderMent.shader" />
     <None Include="Assets\初级Shader\AlphaBlend\Trnaparent.shader" />
     <None Include="Assets\初级Shader\BilinnPhong\BilinnPhong.shader" />
+    <None Include="Assets\初级Shader\ClipExample\CenterClip.shader" />
     <None Include="Assets\初级Shader\Diffuse\Diffuse.shader" />
     <None Include="Assets\初级Shader\Distortion扭曲\Distortion.shader" />
     <None Include="Assets\初级Shader\EageLight\Edge.shader" />
