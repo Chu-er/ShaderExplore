@@ -124,11 +124,14 @@
     <Compile Include="Assets\变体宏 和 Editor\Editor\CustomShaderEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\中级shader编程\2DOutLine\OutLine.shader" />
+    <None Include="Assets\中级shader编程\AlphaTest\AlphaTest.shader" />
     <None Include="Assets\中级shader编程\Bloom\Bloom.shader" />
     <None Include="Assets\中级shader编程\Bloom\GuassianBlur.shader" />
     <None Include="Assets\中级shader编程\Shader\MatrixRotate.shader" />
     <None Include="Assets\中级shader编程\Shader\Melt.shader" />
     <None Include="Assets\中级shader编程\Shader\Wave.shader" />
+    <None Include="Assets\中级shader编程\StencilTest\StencilTest.shader" />
     <None Include="Assets\中级shader编程\关于StencilBuffer\StencilTest.shader" />
     <None Include="Assets\中级shader编程\关于StencilBuffer\StencilTestTargte.shader" />
     <None Include="Assets\初级Shader\AlphaBlend\AlphaBlend 1.shader" />
